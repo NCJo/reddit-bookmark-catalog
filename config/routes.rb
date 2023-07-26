@@ -3,4 +3,6 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "articles#index"
+  get '/auth/:provider/callback', to: 'session#create'
+  delete 'logout', to: 'sessions#destroy', as: :logout
 end
