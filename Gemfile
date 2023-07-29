@@ -51,6 +51,7 @@ group :development, :test do
   # gem 'dotenv-rails', '~> 2.7.6'
   gem 'sqlite3'
 end
+gem 'dotenv-rails', '~> 2.7.6'
 
 gem "rake", "~> 13.0"
 
