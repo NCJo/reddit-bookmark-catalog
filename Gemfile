@@ -55,3 +55,5 @@ gem 'dotenv-rails', '~> 2.7.6'
 
 gem "rake", "~> 13.0"
 
+gem 'sqlite3'
+
